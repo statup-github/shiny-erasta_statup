@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  shiny-stadtwerke:
+    image: stefanfritsch/shiny-atk
+    restart: unless-stopped
+    mem_limit: 10000m
+    expose:
+    - 3838
+    volumes:
+    - /nfs/Gemeinsame Dokumente/Projekte/2017/AT Kearney Verspätungsanalyse DB/Auswertung/Code/Shiny App/Delta_Verspaetung_Netzwerkanalyse:/srv/shiny-server
