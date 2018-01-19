@@ -5,7 +5,6 @@ if(!require(checkpoint))
 
 checkpoint::checkpoint("2017-11-15", project = "~")
 
-
 library(shiny)
 library(leaflet)
 library(data.table)
@@ -15,4 +14,5 @@ library(dplyr)
 library(plotly)
 
 library(forcats)
+
 
