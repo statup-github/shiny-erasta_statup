@@ -12,7 +12,13 @@ library(magrittr)
 library(stringr)
 library(dplyr)
 library(plotly)
-
 library(forcats)
+library(extrafont)
+
+library(car)
+
+if(!require(statupinternal))
+  devtools::install_git("https://git.stablab.de/RPackages/statupinternal")
+library(statupinternal)
 
 
