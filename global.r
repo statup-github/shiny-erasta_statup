@@ -14,7 +14,7 @@ library(dplyr)
 library(plotly)
 library(forcats)
 library(extrafont)
-
+library(bezier)
 library(car)
 
 if(!require(statupinternal))
